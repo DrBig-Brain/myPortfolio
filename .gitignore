@@ -1,0 +1,33 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Optional: Chroma / vector DB (important)
+chroma/
+*.sqlite3
+
+# Cache
+.cache/
