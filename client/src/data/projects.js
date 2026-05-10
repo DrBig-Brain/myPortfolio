@@ -1,10 +1,7 @@
 export const projects = [
     {
         title:"MediBot AI",
-        description:`MediBot is a healthcare-focused assistant web app that combines:
-            fine-tuned LLM backend for domain-aware medical responses,
-            React frontend with Tailwind CSS for a modern interactive UI,
-            deployment-ready architecture for fast prototyping and production.`,
+        description:`MediBot is a healthcare-focused assistant web app that provides fine-tuned LLM for domain-aware medical responses.`,
         techStack:"",
         github:"https://github.com/DrBig-Brain/MediBotAI",
         image:""
@@ -18,19 +15,14 @@ export const projects = [
     },
     {
         title:"end2end ML pipeline",
-        description:`A production-grade Machine Learning system that predicts taxi fares using real-world streaming data.
-                    This project demonstrates:
-                    Batch + Streaming pipelines
-                    Automated retraining
-                    Model monitoring
-                    Cloud-native deployment`,
+        description:`A production-grade Machine Learning system that predicts taxi fares using real-world streaming data.`,
         techStack:"",
         github:"https://github.com/DrBig-Brain/end2endMLandWebApp",
         image:""
     },
     {
         title:"LifeFlow AI",
-        description:``,
+        description:`An agentic AI system that simulates your future decisions before you make them.`,
         techStack:"",
         github:"https://github.com/DrBig-Brain/LifeFlowAI",
         image:""
@@ -44,7 +36,7 @@ export const projects = [
     },
     {
         title:"MotorSense AI",
-        description:`MotorSense AI is an IoT-based system designed to monitor motor health using machine learning. It collects vibration data using an ESP8266/ESP32 microcontroller and an MPU6050 accelerometer, analyzes the data to detect anomalies, and classifies the motor's state (e.g., "Good", "Bad").`,
+        description:`MotorSense AI is an IoT-based system designed to monitor motor health using machine learning and classifies the motor's state (e.g., "Good", "Bad").`,
         techStack:"",
         github:"https://github.com/DrBig-Brain/MotorSenseAI",
         image:""

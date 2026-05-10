@@ -4,7 +4,7 @@ import image from "../assets/images/cat.png"
 export const About = () => {
     return (
         <>
-            <div className="flex">
+            <div className="flex" id="about">
                 <div className="">
                     <img className="" src={image}></img>
                 </div>
@@ -17,6 +17,10 @@ export const About = () => {
                         I am always eager to learn, adapt, and take on new challenges, with the goal of growing into a skilled engineer who builds innovative and reliable technology.
                     </p>
                 </div>
+            </div>
+            <div className="h-10 w-140 pl-100">
+                    <p className="text-gray-500">Let's make this more interactive</p>
+                    <button type="button" className=" border-emerald-500 border-2 bg-gray-200 hover:py-2 hover:px-4 hover:bg-gray-800 text-gray-800 hover:text-gray-200 px-2"> Chat With Me </button>
             </div>
             </>
     )

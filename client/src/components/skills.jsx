@@ -3,7 +3,7 @@ import "../styles.css";
 export const Skills = () => {
     return(
         <>
-            <div className="text-5xl text-center">
+            <div className="text-5xl text-center" id="skills">
                 <p className="text-red-500 text-3xl">skills section</p>
                 <p className="text-green-500 text-2xl">Languages</p>
                 <i class="devicon-python-plain colored"></i>
@@ -19,7 +19,7 @@ export const Skills = () => {
                 <i class="devicon-sqldeveloper-plain colored"></i>
                 <p className="text-green-500 text-2xl">Backend Development</p>
                 <i class="devicon-fastapi-plain colored"></i>
-                <i class="devicon-flask-original colored"></i>
+                <i class="devicon-flask-original text-white"></i>
                 <i class="devicon-nodejs-plain-wordmark colored"></i>
                 <i class="devicon-express-original colored"></i>
                 <p className="text-green-500 text-2xl">Frontend Development</p>

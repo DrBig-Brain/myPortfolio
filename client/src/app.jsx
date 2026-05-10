@@ -5,9 +5,8 @@ import { Skills } from './components/skills';
 import { Projects } from './components/projects';
 import { Contact } from './components/contact';
 
-
 export const App = () => {
-    return <div className="bg-black pr-100 pl-100">
+    return <div className="bg-black">
         <NavBar />
         <br />
         <About />

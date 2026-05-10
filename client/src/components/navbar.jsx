@@ -7,10 +7,10 @@ export const NavBar = () => {
             <h1 className = "text-xl font-bold">Abhinav Mishra</h1>
         </div>
         <ul className="flex gap-6">
-            <li><a href = "/about">About</a></li>
-            <li><a href = "/projects">Projects</a></li>
-            <li><a href = "/skills">Skills</a></li>
-            <li><a href = "/contact">Contact</a></li>
+            <li><a href = "#about">About</a></li>
+            <li><a href = "#skills">Skills</a></li>
+            <li><a href = "#projects">Projects</a></li>
+            <li><a href = "#contact">Contact</a></li>
         </ul>
     </nav>
 
