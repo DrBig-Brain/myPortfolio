@@ -1,27 +1,19 @@
 import "../styles.css";
-import image from "../assets/images/cat.png"
+import image from "../assets/images/ME.png"
 
 export const About = () => {
     return (
         <>
-            <div className="flex" id="about">
-                <div className="">
-                    <img className="" src={image}></img>
+            <div className="flex items-stretch" id="about">
+                <div className="w-1/2">
+                    <img className="w-full h-full" src={image}></img>
                 </div>
-                <div className="text-gray-500">
-                    <h1 className="font-bold text-gray-400 text-2xl">Hi, I am ABHINAV MISHRA</h1>
-                    <p className="">
-                        I am a passionate and driven engineering student with a strong interest in Artificial Intelligence, Machine Learning, and software development. I enjoy building practical, real-world solutions that combine intelligent systems with user-friendly applications.
-                        With hands-on experience in developing projects involving AI/ML models, IoT systems, and full-stack web applications, I am constantly exploring new technologies and refining my problem-solving skills. I have worked on projects ranging from RFID-based systems and ESP8266-powered devices to Flask-based applications and interactive web interfaces, showcasing my ability to bridge hardware and software effectively.
-                        I am particularly interested in leveraging data-driven approaches and scalable systems to solve meaningful problems. Alongside my technical work, I actively participate in hackathons and collaborative projects, where I focus on creating efficient, impactful solutions.
-                        I am always eager to learn, adapt, and take on new challenges, with the goal of growing into a skilled engineer who builds innovative and reliable technology.
-                    </p>
+                <div className="flex flex-col w-1/2 justify-center p-10">
+                    <h1 className="font-bold text-5xl text-white-main">Hi, I am Abhinav Mishra</h1>
+                    <h2 className="text-5xl text-action-primary">Machine Learning & Web Development</h2>
+                    <p className="mt-4 text-lg text-action-secondary">Master of the chaotic ways of the machine. I stay up late, breaking my brain so the models don’t have to. While others fear being replaced by AI, I’m happily teaching it everything I know with questionable life choices and endless coffee. Learning aggressively so machines can one day learn without me.</p>
                 </div>
             </div>
-            <div className="h-10 w-140 pl-100">
-                    <p className="text-gray-500">Let's make this more interactive</p>
-                    <button type="button" className=" border-emerald-500 border-2 bg-gray-200 hover:py-2 hover:px-4 hover:bg-gray-800 text-gray-800 hover:text-gray-200 px-2"> Chat With Me </button>
-            </div>
-            </>
+        </>
     )
 }

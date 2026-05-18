@@ -1,5 +1,22 @@
 @import "tailwindcss";
 
-html{
+html {
     scroll-behavior: smooth;
+}
+
+@theme {
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+
+@theme {
+    --color-background: #0D1117;
+    --color-background-secondary: #161B22;
+
+    --color-action-primary: #1DAA75;
+    --color-action-secondary: #5DCAA5;
+
+    --color-blue-main: #378ADD;
+
+    --color-white-main: #E1F5EE;
 }
