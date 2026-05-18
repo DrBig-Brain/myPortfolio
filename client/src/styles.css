@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 @theme {
@@ -10,13 +10,13 @@ html {
 
 
 @theme {
-    --color-background: #0D1117;
-    --color-background-secondary: #161B22;
+  --color-background: #0D1117;
+  --color-background-secondary: #161B22;
 
-    --color-action-primary: #1DAA75;
-    --color-action-secondary: #5DCAA5;
+  --color-action-primary: #1DAA75;
+  --color-action-secondary: #5DCAA5;
 
-    --color-blue-main: #378ADD;
+  --color-blue-main: #378ADD;
 
-    --color-white-main: #E1F5EE;
+  --color-white-main: #E1F5EE;
 }
