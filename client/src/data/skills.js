@@ -1,11 +1,11 @@
 export const skills = [
     {
         "heading": "Languages",
-        "content": ["Python", "C", "JavaScript"]
+        "content": ["Python", "C", "C++", "JavaScript", "GO"]
     },
     {
         "heading": "AI/ML",
-        "content": ["Scikit-learn", "PyTorch", "TensorFlow"]
+        "content": ["Scikit learn", "PyTorch", "TensorFlow"]
     },
     {
         "heading": "Data Analytics",
@@ -20,11 +20,19 @@ export const skills = [
         "content": ["React", "Bootstrap", "Tailwind CSS"]
     },
     {
-        "heading": "MLOps and Cloud",
+        "heading": "Cloud",
         "content": ["AWS", "Docker", "Kubernetes", "Terraform"]
     },
     {
+        "heading": "MLOps",
+        "content": ["AirFlow", "MLFlow", "Evedently AI"]
+    },
+    {
+        "heading": "LLM and Agentic AI",
+        "content": ["Hugging Face", "LangChain", "LangGraph"]
+    },
+    {
         "heading": "Databases",
-        "content": ["MongoDB", "PostgreSQL"]
+        "content": ["MongoDB", "PostgreSQL", "Chroma"]
     }
 ]

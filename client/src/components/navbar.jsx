@@ -7,10 +7,10 @@ export const NavBar = () => {
                 <h1 className="text-5xl p-2"><span className="font-bold text-6xl text-action-primary">A</span>bhinav.dev</h1>
             </div>
             <ul className="flex gap-6 px-2 text-2xl">
-                <li><a href="#about" className="active:text-action-secondary hover:underline">About</a></li>
-                <li><a href="#skills" className="active:text-action-secondary hover:underline">Skills</a></li>
-                <li><a href="#projects" className="active:text-action-secondary hover:underline">Projects</a></li>
-                <li><a href="#contact" className="active:text-action-secondary hover:underline">Contact</a></li>
+                <li><a href="#about" className="active:text-action-secondary hover:underline">about</a></li>
+                <li><a href="#skills" className="active:text-action-secondary hover:underline">skills</a></li>
+                <li><a href="#projects" className="active:text-action-secondary hover:underline">projects</a></li>
+                <li><a href="#contact" className="active:text-action-secondary hover:underline">contact</a></li>
             </ul>
         </nav>
 
