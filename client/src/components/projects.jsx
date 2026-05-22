@@ -3,15 +3,54 @@ import {projects} from "../data/projects";
 
 export const Projects = () => {
     return(
-        <div className="text-center" id="projects">
-        <h1 className="text-pink-400 text-3xl">Projects</h1>
-        {projects.map((project)=>{
-            return <div className = "">
-                <h1 className="text-emerald-600 underline">{project.title}</h1>
-                <p className="text-emerald-600">{project.description}</p>
-                <a href={project.github} className="text-gray-300">Github</a>
+        <div className="text-center scroll-mt-28" id="projects">
+            <h1 className="text-action-primary text-7xl hover:underline py-8">
+                projects
+            </h1>
+
+            <div className="flex flex-wrap items-stretch px-8 pb-12">
+                {projects.map((project, index) => {
+                return (
+                    <div key={index} className="w-1/2 p-4">
+                    <div className="rounded-3xl overflow-hidden border border-action-primary/40 bg-background-secondary h-full flex flex-col hover:-translate-y-2 transition-all duration-300">
+
+                        {/* Top Image Section */}
+                        <div className="h-52 flex items-center justify-center border-b border-action-primary/20 bg-gradient-to-br from-background-secondary to-black/40">
+                        <img
+                            src={`/src/assets/images/${project.image}`}
+                            alt={project.title}
+                            className="h-full w-full object-cover opacity-90"
+                        />
+                        </div>
+
+                        {/* Content */}
+                        <div className="flex flex-col flex-grow p-6 text-left">
+                        <h1 className="text-action-primary text-3xl hover:underline pb-3 font-semibold">
+                            {project.title}
+                        </h1>
+
+                        <p className="text-action-secondary text-lg leading-relaxed flex-grow">
+                            {project.description}
+                        </p>
+
+                        {/* Footer Button */}
+                        <div className="pt-6">
+                            <a
+                            href={project.github}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block px-5 py-2 rounded-xl border border-action-primary text-action-primary hover:bg-action-primary hover:text-black transition-all duration-300"
+                            >
+                            GitHub
+                            </a>
+                        </div>
+                        </div>
+
+                    </div>
+                    </div>
+                );
+                })}
             </div>
-        })}
         </div>
     )
 }
