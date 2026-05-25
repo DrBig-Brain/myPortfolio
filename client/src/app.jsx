@@ -4,7 +4,7 @@ import { About } from './components/about';
 import { Skills } from './components/skills';
 import { Projects } from './components/projects';
 import { Contact } from './components/contact';
-
+import {Cta} from './components/cta';
 export const App = () => {
     return <div className="bg-background font-mono">
         <NavBar />
@@ -14,6 +14,8 @@ export const App = () => {
         <Skills />
         <br />
         <Projects />
+        <br/>
+        <Cta/>
         <br />
         <Contact />
     </div>

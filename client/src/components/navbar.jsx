@@ -10,6 +10,7 @@ export const NavBar = () => {
                 <li><a href="#about" className="active:text-action-secondary hover:underline">about</a></li>
                 <li><a href="#skills" className="active:text-action-secondary hover:underline">skills</a></li>
                 <li><a href="#projects" className="active:text-action-secondary hover:underline">projects</a></li>
+                <li><a href="#cta" className="actite:text-action-secondary hover:underline">react out</a></li>
                 <li><a href="#contact" className="active:text-action-secondary hover:underline">contact</a></li>
             </ul>
         </nav>
