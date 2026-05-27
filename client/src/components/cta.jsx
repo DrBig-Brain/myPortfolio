@@ -31,9 +31,9 @@
               <rect x="50" y="420" width="500" height="100" rx="12" stroke="var(--color-action-primary)" strokeWidth="1" />
             </svg>
 
-            <h1 className="text-7xl text-action-primary font-bold leading-tight">What we can do</h1>
-            <h2 className="text-5xl text-action-secondary mt-4 mb-6">Hire, collaborate or just say hi.</h2>
-            <p className="text-3xl text-action-secondary max-w-xl">I build production-ready web apps and ML systems. Use this form to offer work, ask about a project, request feedback, or just chit-chat — I respond to reasonable messages quickly.</p>
+            <h1 className="text-7xl text-action-primary font-bold leading-tight">What I can do</h1>
+            <h2 className="text-5xl text-action-secondary mt-4 mb-6">Contribute, collaborate or just say hi.</h2>
+            <p className="text-3xl text-action-secondary max-w-xl">I build production-ready web apps and ML systems. Use this form to offer work, ask about a project, request feedback, or just chit-chat, I respond to reasonable messages quickly.</p>
 
             <div className="mt-10 flex gap-8 items-start">
               <div>
