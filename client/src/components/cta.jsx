@@ -11,7 +11,7 @@
         e.preventDefault();
         setSubmitting(true);
         try {
-          await axios.post('http://localhost:5000/api/submit', formData);
+          await axios.post('https://myportfolio-tawv.onrender.com/api/submit', formData);
           setDone(true);
           setFormData({ name: '', email: '', phone: '', message: '' });
           setTimeout(() => setDone(false), 3000);
