@@ -16,7 +16,7 @@ export const Projects = () => {
                         {/* Top Image Section */}
                         <div className="h-40 sm:h-52 flex items-center justify-center border-b border-action-primary/20 bg-gradient-to-br from-background-secondary to-black/40">
                         <img
-                            src={`/public/images/${project.image}`}
+                            src={`/images/${project.image}`}
                             alt={project.title}
                             className="h-full w-full object-cover opacity-90"
                         />
