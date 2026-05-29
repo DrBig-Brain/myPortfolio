@@ -4,7 +4,7 @@ import {projects} from "../data/projects";
 export const Projects = () => {
     return(
         <div className="text-center scroll-mt-28" id="projects">
-            <h1 className="text-action-primary text-7xl hover:underline py-8">
+            <h1 className="text-action-primary text-7xl hover:underline py-8 hover:-translate-y-2 transition-all duration-300">
                 projects
             </h1>
 

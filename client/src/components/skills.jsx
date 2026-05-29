@@ -4,9 +4,9 @@ import { skills } from "../data/skills"
 export const Skills = () => {
     return (
         <>
-            <div id="skills">
+            <div id="skills" className="mt-24">
 
-                <p className="text-action-primary bold text-7xl text-center pt-8 hover:underline">skills</p>
+                <p className="text-action-primary bold text-7xl text-center pt-8 hover:underline hover:-translate-y-2 transition-all duration-300">skills</p>
                 <div className="flex flex-wrap justify-center item-strech p-10">
                     {
                         skills.map((block) => {
