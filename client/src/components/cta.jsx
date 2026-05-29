@@ -23,17 +23,17 @@
       };
 
       return (
-        <section id="cta" className="min-h-screen w-full bg-background flex">
-          {/* Left decorative area (2/3) */}
-          <div className="w-2/3 relative overflow-hidden flex flex-col justify-center p-16">
+          <section id="cta" className="min-h-200 w-full bg-background flex flex-col md:flex-row">
+            {/* Left decorative area (2/3) */}
+            <div className="w-full md:w-2/3 relative overflow-hidden flex flex-col justify-center px-6 md:px-16 scroll-mt-28 py-8 md:py-0">
             <svg className="absolute -right-40 -top-28 opacity-20" width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
               <circle cx="300" cy="300" r="280" stroke="var(--color-action-primary)" strokeWidth="2"/>
               <rect x="50" y="420" width="500" height="100" rx="12" stroke="var(--color-action-primary)" strokeWidth="1" />
             </svg>
 
-            <h1 className="text-7xl text-action-primary font-bold leading-tight">What I can do</h1>
-            <h2 className="text-5xl text-action-secondary mt-4 mb-6">Contribute, collaborate or just say hi.</h2>
-            <p className="text-3xl text-action-secondary max-w-xl">I build production-ready web apps and ML systems. Use this form to offer work, ask about a project, request feedback, or just chit-chat, I respond to reasonable messages quickly.</p>
+            <h1 className="text-2xl sm:text-4xl md:text-7xl text-action-primary font-bold leading-tight">What I can do</h1>
+            <h2 className="text-xl sm:text-2xl md:text-5xl text-action-secondary mt-4 mb-6">Contribute, collaborate or just say hi.</h2>
+            <p className="text-base sm:text-lg md:text-3xl text-action-secondary max-w-xl">I build production-ready web apps and ML systems. Use this form to offer work, ask about a project, request feedback, or just chit-chat, I respond to reasonable messages quickly.</p>
 
             <div className="mt-10 flex gap-8 items-start">
               <div>
@@ -49,9 +49,9 @@
           </div>
 
           {/* Right form area (1/3) */}
-          <aside className="w-1/3 flex items-center justify-center p-8">
-            <div className="w-full max-w-md bg-background-secondary border border-action-primary/20 rounded-2xl p-8 shadow-md">
-              <h2 className="text-center text-5xl text-action-primary mb-6">Get in Touch</h2>
+          <aside className="w-full md:w-1/3 flex items-center justify-center p-6 md:p-8">
+            <div className="w-full max-w-md bg-background-secondary border border-action-primary/20 rounded-2xl p-6 md:p-8 shadow-md">
+              <h2 className="text-center text-2xl md:text-5xl text-action-primary mb-6">Get in Touch</h2>
 
               <form onSubmit={handleSubmit}>
                 <label className="sr-only" htmlFor="name">Name</label>
