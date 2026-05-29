@@ -1,5 +1,5 @@
 import "../styles.css";
-import image from "../assets/images/ME.png"
+import image from "../../public/images/ME.png"
 
 export const About = () => {
     return (
