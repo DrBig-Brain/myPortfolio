@@ -1,12 +1,11 @@
 import "../styles.css";
-import image from "../../public/images/ME.png"
 
 export const About = () => {
     return (
         <>
             <div className="flex flex-col md:flex-row items-stretch scroll-mt-28" id="about">
                 <div className="w-full md:w-1/2">
-                    <img className="w-full h-auto object-cover" src={image} alt="Abhinav" />
+                    <img className="w-full h-auto object-cover" src="/images/ME.png" alt="Abhinav" />
                 </div>
                 <div className="flex flex-col w-full md:w-1/2 justify-center p-6 md:p-10">
                     <h1 className="font-bold text-2xl md:text-5xl text-white-main hover:underline hover:-translate-y-2 transition-all duration-500">Hi, I am Abhinav Mishra</h1>
