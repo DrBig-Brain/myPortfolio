@@ -45,7 +45,7 @@ export const projects = [
         title:"gpt from scratch",
         description:"Implemented a decoder based transformer trained on Tiny shakespeare for language modeling.",
         techStack:[],
-        github:"https://github.com/DrBig-Brain/MotorSenseAI",
+        github:"https://github.com/DrBig-Brain/GPTFromScratch",
         image:"p7.png"
     },
     {
