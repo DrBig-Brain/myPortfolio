@@ -1,9 +1,9 @@
 export const projects = [
     {
         title:"mediBot ai",
-        description:`MediBot is a healthcare-focused assistant web app that provides fine-tuned LLM for domain-aware medical responses.`,
+        description:`Features a finetuned QwenB 2.5 1.5 Billion parameter model to generate code form natural language.`,
         techStack:[],
-        github:"https://github.com/DrBig-Brain/MediBotAI",
+        github:"https://github.com/DrBig-Brain/CodeLM",
         image:"p1.png"
     },
     {
@@ -54,5 +54,19 @@ export const projects = [
         techStack:[],
         github:"https://github.com/DrBig-Brain/YoloFromScratch",
         image:"p8.png"
+    },
+    {
+        title:"GAN from scratch",
+        description:"implemented the following models completely from the ground up: Vanilla GAN, DCGAN (Deep Convolutional GAN), WGAN with Gradient Penalty, Conditional GAN (cGAN), Pix2Pix, CycleGAN, ProGAN (Progressive Growing GAN).",
+        techStack:[],
+        github:"https://github.com/DrBig-Brain/GANFromScratch",
+        image:"p9.png"
+    },
+    {
+        title:"Vision Transformer from scratch",
+        description:"A Vision Transformer implementation for image classification on brain MRI scans with custom make self attention, MLP and embedding classes.",
+        techStack:[],
+        github:"https://github.com/DrBig-Brain/VisionTransformerFromScratch",
+        image:"p10.png"
     }
 ]
