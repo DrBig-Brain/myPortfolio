@@ -1,6 +1,6 @@
 export const projects = [
     {
-        title:"mediBot ai",
+        title:"CodeLM",
         description:`Features a finetuned QwenB 2.5 1.5 Billion parameter model to generate code form natural language.`,
         techStack:[],
         github:"https://github.com/DrBig-Brain/CodeLM",
